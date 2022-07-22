@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Imgs-icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Imgs-icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Imgs-icons/favicon-16x16.png">
+</head>
+<title>FrontHenry</title>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="https://www.linkedin.com/in/henry-victor-passold-gomes" target="_blank"><li>LinkedIn</li></a>
+                <a href="https://github.com/FrontHenry" target="_blank"><li>GitHub</li></a> 
+                <a href="#Contato" id="contato" onClick="animacaoBotaoContato()"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+    <div id ="contato-div">
+        <form id="assunto" action="https://formsubmit.co/457f3cd9871617774617539b80d789e4" method="POST" enctype="multipart/form-data">
+            <div class="modal-form" id="animation" style="display:none">
+                <label for="button"class="form">Qual o motivo do seu contato?</label>
+                <select id="select" name="_subject" type="" class="">
+                    <option value="none" disabled selected>Selecione</option>
+                    <option value="EP" >Empresarial</option>
+                    <option value="FR">Freelancer</option>
+                </select>
+                <label for="email" class="form">Seu email</label>
+                <input type="email" name="email" id="text" placeholder="Insira seu email" required=".com">
+                <label for="message" class="form">Mensagem</label>
+                <textarea id="text"name="message" placeholder="Insira aqui o motivo do seu contato."></textarea>
+                <button type="submit" class="button btn-block">Enviar</button>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_next" value="http://127.0.0.1:54594/index.html">
+            </div>
+        </form>
+    </div>
+
+        <section id="Apresentação">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card__f card__f--frente"><img src="./Imgs-icons/FHlogo.png" alt="Logotipo com 'FrontHenry' escrito em uma tela"></div>
+                    <div class="card__f card__f--verso">Bem<br>Vindo!</div>
+                </div>
+            </div>
+            <div id="ap1" class="container">
+                <div id="dh-1" class="div-header">QUEM</div>
+                <h1>Meu nome é<br>Henry Victor</h1>
+                <h3>e eu sou um<br>Desenvolvedor de Frontend</h3>
+            </div>
+            <div id="ap2" class="container">
+                <div id="dh-2" class="div-header">SOU</div>
+                <p>Iniciei minha jornada recentemente no mundo tech com 23 anos e atualmente busco minha primeira experiência profissional.</p>
+            </div>
+            <div id="ap3" class="container">
+                <div id="dh-3" class="div-header">EU</div>
+                <p>Atualmente foco no estudo para Frontend, porém planejo me tornar um desenvolvedor Fullstack assim que obter um bagagem considerável de conhecimento.</p>
+            </div>
+            <div id="ap4" class="container">
+                <div id="dh-4" class="div-header">?</div>
+                <p>Se você gostou do meu portifólio e se interessou pelo meu trabalho, vamos trabalhar juntos!<br><br>😎</p>
+            </div>
+        </section>
+
+        <section id="habilidades" >
+            <header id="H"><h2>Habilidades</h2></header>
+            <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" /></li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" /></li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /></li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" /></li>
+            <li><a href="https://github.com/FrontHenry" target="_blank">...</a></li>
+            </ul>
+        </section>
+
+        <section id="Projetos" >
+            <header id="PJ"><h2>Projetos</h2></header>
+            <br>
+            <div class="carregar" alt="animação"> <a href="https://github.com/FrontHenry" target="_blank">EM BREVE</a></div>          
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Nos vemos por ai! 👋</p>
+    </footer>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
