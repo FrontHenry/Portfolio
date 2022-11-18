@@ -8,6 +8,8 @@ function animacaoBotaoContato() {
   }
 }
 
+//Apresentação 
+
 document.getElementById("dh-1").addEventListener("click", function() {
   document.getElementById("dh-1").classList.add('mouseenter');
   document.getElementById("ap1").classList.add('mouseenter');
@@ -44,3 +46,4 @@ document.getElementById("ap4").addEventListener("mouseleave", function() {
   document.getElementById("ap4").classList.remove('mouseenter');
   document.getElementById("dh-4").classList.remove('mouseenter');
 });
+
